@@ -68,6 +68,8 @@ At the end of this course, you should be able to:
 
 ## Course topics calendar
 
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:1 -->
+
 1. Introduction to C++
    1.1 Programming (general)
    1.2 Programming basics
@@ -190,7 +192,8 @@ At the end of this course, you should be able to:
    7.16 Namespaces
    7.17 Static data members and functions
    
- Note: This is tentative! Expect topics to move around as we progress.
+   <!-- /TOC -->
+Note: This is tentative! Expect topics to move around as we progress.
 
 UTRGV important dates:
 
