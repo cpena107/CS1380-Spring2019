@@ -99,7 +99,7 @@ Optional (you do not need to buy this, and no assignments or readings will come 
 
 ## Software
 
-We'll be using C++, throughout the entire term.
+We'll be using C++ and ZyBooks, throughout the term.
 
 ### C++
 
