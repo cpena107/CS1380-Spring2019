@@ -6,13 +6,7 @@ Section 03 Lecture: TR 5:55 pm - 7:10 pm (2.110)
 Attendance: https://goo.gl/forms/cawe95JOu3Dp67Wq2
 
 There's more to Computer Science than programming, but programming is a great way to learn about how computers "think", and how we can use them as tools to solve problems. In this course, we'll learn how to analyze real-world problems, identify the parts of the problem that a computer could solve much more efficiently than we can, and create a program, which is a set of instructions that tell a computer what to do.
-.
-.
-.
-.
-.
-.
-.
+
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Instructor](#instructor)
@@ -50,11 +44,13 @@ There's more to Computer Science than programming, but programming is a great wa
 ## Instructor
 
 Mr. Carlos A. Pena
+
 <carlos.penacaballero01@utrgv.edu>
 
 ### Office hours
 
 TR 3:00-5:00 (or by appointment)
+
 IEAB 3.226
 
 ## Objectives
