@@ -68,7 +68,7 @@ At the end of this course, you should be able to:
 
 ## Course topics calendar
 
--[Calendar Here](https://github.com/cpena107/CS1380-Spring2019/blob/master/Class-Schedule.md)
+- [Calendar Here. ](https://github.com/cpena107/CS1380-Spring2019/blob/master/Class-Schedule.md)
 Note: This is tentative! Expect topics to move around as we progress.
 
 UTRGV important dates:
