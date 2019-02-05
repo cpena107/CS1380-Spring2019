@@ -1,282 +1,405 @@
-# CSCI 1380.03 - Computer Science I
+**Instructor** : Carlos Pena                                                            **Semester** :  Spring 2019
 
-<https://github.com/cpena107/CS1380-Spring2019>
+**Phone** :  665-2320                                                        **Office** :  EIEAB 3.227
 
-Section 03 Lecture: TR 5:55 pm - 7:10 pm (2.110)
-Attendance: https://goo.gl/forms/cawe95JOu3Dp67Wq2
+**Email** : [carlos.penacaballero01@utrgv.edu](mailto:carlos.penacaballero01@utrgv.edu)
 
-There's more to Computer Science than programming, but programming is a great way to learn about how computers "think", and how we can use them as tools to solve problems. In this course, we'll learn how to analyze real-world problems, identify the parts of the problem that a computer could solve much more efficiently than we can, and create a program, which is a set of instructions that tell a computer what to do.
+**Class Meeting Times: TR** 5:55 am-7:10 pm                                        **Room:** ACSB 2.110
 
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+**Office Hours** : **MWTR** 3:00 pm-4:20 pm and by appointment.
 
-- [Instructor](#instructor)
-	- [Office hours](#office-hours)
-- [Objectives](#objectives)
-- [Course topics calendar](#course-topics-calendar)
-- [Textbook](#textbook)
-- [Software](#software)
-	- [C++](#c)
-- [Grading](#grading)
-	- [In-class participation](#in-class-participation)
-	- [Reading quizzes](#reading-quizzes)
-	- [In-class exercises](#in-class-exercises)
-	- [Homework](#homework)
-- [Expectations](#expectations)
-- [Course policies](#course-policies)
-	- [Communication](#communication)
-	- [Office hours](#office-hours)
-	- [Submissions](#submissions)
-	- [Academic honesty](#academic-honesty)
-	- [In-class device policy](#in-class-device-policy)
-- [UTRGV Policies](#utrgv-policies)
-	- [Students with disabilities](#students-with-disabilities)
-		- [Pregnancy, Pregnancy-related, and Parenting Accommodations](#pregnancy-pregnancy-related-and-parenting-accommodations)
-		- [Student Accessibility Services](#student-accessibility-services)
-	- [Mandatory course evaluation period](#mandatory-course-evaluation-period)
-	- [Attendance](#attendance)
-	- [Scholastic integrity](#scholastic-integrity)
-	- [Sexual harassment, discrimination, and violence](#sexual-harassment-discrimination-and-violence)
-	- [Course drops](#course-drops)
-	- [Student services](#student-services)
+# **Course Description:**
 
-<!-- /TOC -->
+#      An introduction to computer science and computer programming is given, in which the fundamentals of a high-level programming language will be introduced. Methods of problem-solving, techniques of algorithmic development and concepts of structured object oriented programming will be emphasized.
 
-## Instructor
+#       **Important:** Computer Science majors/minors-Computer Engineering majors must take CSCI 1370/1170-CMPE 1370/1170 instead.
 
-Mr. Carlos A. Pena
+# **Prerequisites:**
 
-<carlos.penacaballero01@utrgv.edu>
+     Concurrent enrollment or credit for MATH 1314 or placement in a higher level mathematics course.
 
-### Office hours
+# **Textbook:**
 
-TR 3:00-5:00 (or by appointment)
+     - Recommended: C++ Programming: Program Design Including Data Structures By D. S. Malik Edition: 5, illustrated Published by Course Technology, Cengage Learning, 2011 ISBN-13 978-0-538-79809-9, ISBN-10 0-538-79809-2. You may want to check www.bookfinder.com for used books or www.chegg.com for book rentals, among other sites. Local bookstores also rent this book.
 
-IEAB 3.226
+**Note:** Notice this book is recommended, not required, and so almost any C++ book should suffice (other versions of this book or even books from other authors).
 
-## Objectives
+# **Course Topics:**
 
-*(Adapted from CS111 by Sharon Tuttle in Humboldt State University)*
+     This course will concentrate on techniques of problem solving and algorithmic design and will include lab experiences in the design and implementation of those algorithms in C++. C++ topics will include interactive input/output statements, file input and output statements, assignment statements, simple data types, selection and looping statements, functions, one and two dimensional arrays, user-defined data types, and structured data types. Time permitting, data abstraction and classes will be introduced.
 
-At the end of this course, you should be able to:
+**Course Objectives:**  After completing this course, the student should be able to:
 
-- Design, implement, test, and debug programs that use each of the following fundamental programming constructs: basic computation, standard conditional and iterative structures, and the definition of functions.
-- Analyze the behavior of simple programs involving fundamental programming constructs.
-- Choose appropriate conditional and iterative constructs for a programming task.
-- Apply the techniques of structured (functional) decomposition to break a program into smaller pieces -- or, better yet, originally design it using such smaller pieces.
-- Describe strategies that are useful in testing and debugging.
-- Write clear comments that communicate to the reader what a function expects and what it produces.
+     Understand and carry out the steps involved in solving a problem using the computer, including the analysis, design, implementation, documentation and testing phases using methods of structured, modular and top-down style.
 
-## Course topics calendar
+     Be proficient with the programming environment and understand the system hardware, software and aspects of program translation.
 
-- [Calendar Here. ](https://github.com/cpena107/CS1380-Spring2019/blob/master/Class-Schedule.md)
-Note: This is tentative! Expect topics to move around as we progress.
+     Choose appropriate algorithms and data structures and proper syntax for problems involving selection control structures, various looping structures, procedures and functions, and for problems requiring array and other structures.
 
-UTRGV important dates:
+**Learning Outcomes:**
 
-| Date             | Event                                                                |
-|:-----------------|----------------------------------------------------------------------|
-| January 14       | First day of classes                                                 |
-| January 17       | Last day to add a course or register for Spring 2019                 |
-| January 21       | Martin Luther King Jr. Holiday. No classes                           |
-| January 30       | Census Day (last day to drop without it appearing on the transcript) |
-| March 11 - 16    | Spring Break. No Classes                                             |
-| April 10         | Last day to drop a course; will count toward the 6-drop rule         |
-| April 19 - 20    | Easter Holiday. No Classes.                                          |
-| May 2            | Study Day – No classes                                               |
-| May 3 - 9        | Final Exams                                                          |
-| May 10 - 11      | Commencement Exercises                                               |
+     Upon completion of this course, students should be able to:
 
-## Textbook
+# 1. Be proficient with the programming environment and understand the basic aspects of program translation.
 
-Required:
+# 2. Analyze a programming problem and develop a solution algorithm.
 
--[Programming In C++ with zyLabs](http://www.zybooks.com)
+# 3. Use the syntax and semantics of a higher-level language to implement their solutions to programming problems, including the correct use of:
 
-Optional (you do not need to buy this, and no assignments or readings will come from this text): any C++ reference, take your pick. Recommended are:
+# a. Variables and assignment to variables,
 
-- ["C++ Programming: Program Design Including Data Structures", Malik, D.S.](https://www.amazon.com/Programming-Program-Design-Including-Structures/dp/1133526322)
-- ["Problem Solving with C++", Savitch](https://www.amazon.com/Problem-Solving-10th-Walter-Savitch/dp/0134448286)
+# b. Primitive types such as integer, character, and floating-point variable types,
 
-## Software
+# c. Commonly-used built-in reference types, e.g., single-dimensional arrays, strings,
 
-We'll be using C++ and ZyBooks, throughout the term.
+# d. Declaration of constants and variables,
 
-### C++
+# e. Assignment, logical, and arithmetic operators,
 
-We'll use VisualStudio to program in C++. VS is in the labs as well. Get back to me on getting an educational license for VisualStudio, or whether the [free version](https://visualstudio.microsoft.com/free-developer-offers/) will be good enough.
+# f. Local and global variables,
 
+# g. Selective control structures (e.g., if, nested if, switch),
 
-## Grading
+# h. Iterative control structures (e.g., for, while),
 
-|                        | Percentage |
-|------------------------|-----------:|
-| In-class participation |        10% |
-| Reading quizzes        |        10% |
-| In-class exercises     |        10% |
-| Homework               |        25% |
-| Exam 1                 |      12.5% |
-| Exam 2                 |      12.5% |
-| Final Exam             |        20% |
-| **Total**              |   **100%** |
+# i. Functions (user-defined and predefined),
 
-| Percentage | Final grade |
-|------------|-------------|
-| 90-100%    |           A |
-| 80-89%     |           B |
-| 70-79%     |           C |
-| 60-69%     |           D |
-| 0-59%      |           F |
+# j. Parameter passing to functions (by value and by reference),
 
+# k. Arrays and other structures (such as records).
 
-### In-class participation
+# 4. Document their solutions.
 
-**TL;DR: Research shows that you'll do well in this class if you do the assigned readings, answer the online quizzes, and participate in class discussions.** (Who'd have thought?)
+# 5. Use functions and parameter passing involving both primitive types and reference types.
 
-For objectivity sake, attendance will stand for in-class participation ('coz you better be sure I'm going to get you to participate if you're in the room).
+# 6. Apply problem-solving strategies to design a solution to a problem similar to ones seen before.
 
-We're adopting Peer Instruction, which is an active learning method that's been backed by [a lot of research](https://www.peerinstruction4cs.org/latest-research/). This is how it works ([or you can watch a video instead](https://www.youtube.com/watch?v=Rixx-Qtnt5I)):
+# 7. Design simple ADTs to solve a problem similar to one seen before.
 
-1. I send you home with a reading assignment
-2. You read the assignment
-3. You then answer an [online quiz](#reading-quizzes) before coming in to class
-4. We go over the assigned reading through a series of multiple choice questions (maybe 3-5 per class), that will follow the think-pair-share format:
+# 8. Apply testing and debugging strategies, including black-box and white-box testing, test drivers, stubs, to identify software faults.
 
-	4a. Think: I reveal the multiple choice question and you think over it for a minute or two (no talking!), and then vote on which option you think is the right answer.  
-	4b. Pair: You partner up and try and show your partner why your answer is obviously correct, and theirs is wrong.  
-	4c. Share: We all vote again, then discuss the different options with the rest of the class.
+# 9. Formulate complex arithmetic expressions involving operators of differing precedence and associativity, and understand the order of evaluation of sub-expressions.
 
-Here's why I like this method, and why I think it works: Using peer instruction, we get over the **Curse of Knowledge**, which is a condition your instructor (every instructor) has: we just can't remember what it feels like not to know what we know. As a consequence, we (teachers) sometimes explain things in a way in which someone *who already knows the material* can understand, and get surprised when students don't get it. D'oh! The advantage of having a peer explain the concepts to you (who's just learning the concept themselves) is **peers can use the language of a novice, which you'll likely understand better**.
+# 10. Formulate complex logical expressions involving multiple and/or/not combinations.
 
-Further, thinking critically about a question and arguing with someone else about it reinforces the concept in your mind, facilitating deep learning. Like my pal [Bert](https://www.goodreads.com/quotes/19421-if-you-can-t-explain-it-to-a-six-year-old) says: [“If you can't explain it to a six year old, you don't understand it yourself.”](https://www.reddit.com/r/explainlikeimfive/) (Warning: Reddit link, do not click.)
+# 11. Implement nested if statements.
 
-You may be thinking, it we're doing all the work, then what are *you* good for then, Mr. Lumagbas? Well, I'd like to think that I see further ahead than you, so I can see which pitfalls or misconceptions programmers form when first starting out. It's my job to point these out (using questions in class), so that we can avoid (or remedy) them.
+# 12. Demonstrate proficiency in the use of logic and arithmetic operators and their precedence.
 
-I'm happy to receive any feedback on this method, whether or not you think it's working. But let's give it a solid go first, yes?
+# 13. Use simple I/O to read and write character and numeric data to and from files, keyboard, and display.
 
-### Reading quizzes
+# 14. Use simple sorting and searching algorithms.
 
-Reading quizzes for the next lecture will be posted after the current lecture, and submissions will be closed the night before the next lecture.
+# 15. Use standard documentation to determine the use of an unfamiliar class or method.
 
-These are participation points! That means you don't have to get the right answers on the quiz, just convince me that you have read the material.
+# 16. Use teamwork roles and methods in the classroom.
 
-### In-class exercises
+# **Course Grading Policies:**
 
-In-class exercises will be done in pairs, except potentially for one group (and only one!) who may work in a group of three. You may keep the same "lab partner" throughout the term.
+     3 Tests                                36% (12% per exam)
 
-Pair programming means:
+     Homework Assignments                32% (see LAB/HOMEWORK ASSIGNMENTS EVALUATION CRITERIA)
 
-- One monitor, one keyboard, one mouse
-- One person "driving", which means taking control of keyboard and mouse
-- While the other person "navigating", guiding the driver on what to type
-- Pairs change roles regularly
+     Lab Assignments                        32% (see LAB/HOMEWORK ASSIGNMENTS EVALUATION CRITERIA)
 
-Pair programming does not mean:
+**Important:** I DO NOT do extra credit so make sure you get good grades in tests and assignments in order to get a good final grade.
 
-- One person does all the work
-- While the other person scrolls through Instagram, and checks the clock periodically
+Your final grade will be based on the following scale:
 
-Submissions have to be made during class time, except when otherwise noted, so show up to lectures!
+     A:  90-100%      B: 80-89%    C: 70-79%    D:  60-69%     F:  0-59%
 
-### Homework
+**General Course Policies:**
 
-Homeworks are mini-projects that ask you to integrate different topics discussed in class. These are to be performed outside of class time (as the name implies).
+- **Attendance.** _ _I assume that you will attend class, be punctual, remain on task, and stay through the entire class meeting.
+- If you miss more than 10% of the classes without a valid excuse you will be reported to the Early Warning System program. UTRGV&#39;s attendance policy excuses students from attending class if they are participating in officially sponsored university activities, such as athletics; for observance of religious holy days; or for military service. Oher acceptable excuses include (but are not limited to) the death of an immediate family member, or an illness requiring a physician&#39;s attention.
+- **Completion of exams and assignments.** You must take **all** exams and turn in **all** assignments on time. If you miss any of the work for the course, you must speak to me as soon as possible so that I can determine if I will allow you to make up the missed work. Depending on the excuse provided, make-up exams may result in automatic loss of points. All exams must be taken to be able to pass the course, missing anyone will result in an F as a final grade.
+- **Scholastic integrity.** As members of a community dedicated to Honesty, Integrity and Respect, students are reminded that those who engage in scholastic dishonesty are subject to disciplinary penalties, including the possibility of failure in the course and expulsion from the University. Scholastic dishonesty includes but is not limited to: cheating, plagiarism, and collusion; submission for credit of any work or materials that are attributable in whole or in part to another person; taking an examination for another person; any act designed to give unfair advantage to a student; or the attempt to commit such acts. Since scholastic dishonesty harms the individual, all students and the integrity of the University, policies on scholastic dishonesty will be strictly enforced (Board of Regents Rules and Regulations and UTRGV Academic Integrity Guidelines). All scholastic dishonesty incidents will be reported to the Dean of Students.
+- **Course drops.** According to UTRGV policy, students may drop any class without penalty earning a grade of DR until the official drop date. Following that date, students must be assigned a letter grade and can no longer drop the class. Students considering dropping the class should be aware of the &quot;3-peat rule&quot; and the &quot;6-drop&quot; rule so they can recognize how dropped classes may affect their academic success. The 6-drop rule refers to Texas law that dictates that undergraduate students may not drop more than six courses during their undergraduate career. Courses dropped at other Texas public higher education institutions will count toward the six-course drop limit. The 3-peat rule refers to additional fees charged to students who take the same class for the third time.
+- You are responsible for saving and backing up your own assignment files. If you lose a file, you must start the assignment over again. I will give NO special consideration or extensions for lost files.
 
-Except for as noted (e.g. Homework 1) homeworks will be done in randomly-assigned pairs, a different pair each time. However, working in the pair is optional (although encouraged!). When the homework is released, we'll assign pairs during lecture time, and you can decide then to work together, or individually.
+**Homework Assignment Policies:**
 
+     Programs will be graded on correctness, efficiency, quality of design, documentation and style. Late homework assignments may be accepted with a penalty of 10% if submitted within 24 hours after its deadline. A homework assignment may be the accepted afterward but the student will get 0 points for it.
 
-## Expectations
+**     Students may work individually or in pairs** to develop the solution for the problem. **All programming assignments are expected to be the individual/team&#39;s own work**. **Giving** and **receiving** major sections of code is considered cheating and will be dealt with on an individual basis (beginning with total loss of points followed by formal action). They are also encouraged to seek help with identifying syntax and run-time errors from SAs, lab consultants, or the instructor during office hours.
 
-How to do well in this course:
+# **Lab Assignment Policies:**
 
-- **Set a target grade!** Do it this week, week 1. Would you like to ace the course? Just barely pass? Plug some numbers into our [grading scheme](#grading) to see how much work (or how little) you'll actually need to do to hit your target.
-- **Block off time weekly** (or daily!) to work on course requirements outside of class time. Budget at least 5 hours per week apart from the lectures to work on readings, homeworks, and studying for exams.
-- **Programming is a skill**, like playing an instrument. You can't learn to play a guitar just by reading a book, same with programming. Run the examples from the readings and lectures on your own computer (or in the lab), modify them to see how the program behavior changes. Show up to all the lectures, and work on the assignments!
-- **Start working on the homeworks early.** ([I know, this coming from a chronic procrastinator.](https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator) Do what I say, not what I do.) To this day I underestimate how long a programming problem is going to take, and if I'm going to get stuck on anything (and I always get stuck on *something*).
-- **Ask for help.** If something's not clear in lecture, put your hand up. If you get stuck on something with the homeworks, send me an email. Meet me during office hours. It's my job to open opportunities for students to ask help, your job to take them.
-- **When short on time, submit partial work** for partial credit. The emphasis of this course is on the process of problem solving, with the correct solution being a side effect of the process followed well. To that end, do what you can, and show me what you did in the time allotted.
-- **Don't copy code!** Don't even look at someone else's code. [And especially don't turn in any code that's not your own.](#academic-honesty)
-- **Exams will be easy** if you do all of the above.
+     The purpose of the lab assignments is to apply the concepts learned in lectures and to develop team-working skills. **Students MUST work in pairs** to develop the solution for the problem and the lab component of their final grade will depend on  the group as well as the individual accomplishments. The programs are very simple and thus students are advised to work on them as soon as they become available so the day of the lab, they should just &quot;polish&quot; the programs (if necessary with help from SAs and the instructor) during the labs to ensure that they comply with the specifications. Late lab assignments will be accepted with a penalty of 10% if submitted within 24 hours after its deadline.
 
-## Course policies
+      The programs&#39; specifications will be posted on Blackboard a couple of days in advance to the lab.
 
-### Communication
+**All assignments (lab and homework) must be submitted using the tool provided by**  **Blackboard** **to submit assignments (sorry but no email attachments).**
 
-I'll send announcements through Blackboard, please check there every day.
+**Expectations:**
 
-Email me using your UTRGV email, and start the subject line like this "CSCI 1380 - 03"
+     I am committed to quality teaching and to providing you a meaningful experience in this course but learning is your responsibility so please do your part in order to receive the maximum benefit from the course.
 
-### Office hours
+For this class, **I expect you to** :
 
-If you'd like to see me at the office, please email me to set an appointment first. I'm also open to meeting outside of office hours if you set it up through email.
+- **Have your electronic devices (cell phones, notebooks, music players, etc.) OFF at all times (tests, lectures and labs)****.**
+- Attend each class, arrive on time and remain in the classroom throughout the entire class meeting.  If you have a legitimate and important reason for needing to leave early, please let me know before class starts.
+- Complete all assignments and submit them on time (this is very important for you!).
+- Interact respectfully with me, the course assistants, and your other classmates.
+- Participate in class discussions and activities.
+- **Remain on task and focused during class (****i.e., **** no doing homework, engaging in side conversations, web-surfing, reading e-mail, Facebooking, chatting, IMing, **** etc****. during class).**
+- Access your Blackboard account frequently to get information on course policies, assignments, tests, grades, etc. **All information posted on it will be assumed to be known by the student 24 hours later.**
 
-### Submissions
+- Do **Not** bring **food** or **drinks** into the lab please. This is a real issue around computers.
+- Come speak to me IN PERSON and IMMEDIATELY at the **first** sign that you are having trouble with the class or if you miss assignments so I can try to help you.
 
-Submissions will be done through Blackboard. No email attachments please! I may give exceptions if there are problems with uploading attachments through Blackboard. In that case, [attach files to an email](#communication) and send it to me **before** the deadline.
+**Communication – IMPORTANT NOTICE:**
 
-Late submissions will not be accepted. You are responsible for starting assignments early, and to account for any [curve ball Murphy throws at you](https://en.wikipedia.org/wiki/Murphy%27s_law), for example: lost files, computer failure, power outages. Plan for the worst.
+     It is UTRGV policy that all electronic communication related to university activity/business must use university systems. Thus, you **MUST** communicate with me through **Blackboard Messages** or (if Blackboard is not available) through your **UTRGV** e-mail account.
 
-### Academic honesty
+Whether you send a message in Blackboard or an e-mail through your UTRGV account, please ensure that all your messages have the following:
 
-Collaboration is encouraged in this course: most exercises and homeworks will be done in pairs. Outside of those pairs, though, sharing of code is strictly not allowed. Do not send code to another pair, do not copy code off the internet, do not look at solutions of others to get clues on the solution.
+-
+  - Descriptive subject line.
+  - Your name, course number and section (if e-mailing from your UTRGV account), and a clear statement of your question or problem. If you send an attachment, please explain it.
+  - An e-mail is a relatively formal communication, so please ensure your language reflects that fact (be polite, avoid acronyms, use punctuation marks, capitalize, etc.). For example, fyi tina (For your information, this is not acceptable).
 
-If you're stuck on some syntax problems, ask during lecture times, or send me an email.
+**Special Problems/Note to students with disabilities:**
 
-For any in-class exercise, homework, or exam, a score of 0 will be given to all parties involved in cheating.
+     Students with a documented disability (physical, psychological, learning, or other disability which affects academic performance) who would like to receive academic accommodations should contact **Student Accessibility Services (SAS)** as soon as possible to schedule an appointment to initiate services.  Accommodations can be arranged through SAS at any time, but are not retroactive.  Students who suffer a broken bone, severe injury or undergo surgery during the semester are eligible for temporary services.
 
+**SEXUAL HARASSMENT, DISCRIMINATION, and VIOLENCE** :
 
-### In-class device policy
+     In accordance with UT System regulations, your instructor is a &quot;Responsible Employee&quot; for reporting purposes under Title IX regulations and so must report any instance, occurring during a student&#39;s time in college, of sexual assault, stalking, dating violence, domestic violence, or sexual harassment about which she/he becomes aware during this course through writing, discussion, or personal disclosure. More information can be found at www.utrgv.edu/equity, including confidential resources available on campus. The faculty and staff of UTRGV actively strive to provide a learning, working, and living environment that promotes personal integrity, civility, and mutual respect that is free from sexual misconduct and discrimination. If students, faculty, or staff would like confidential assistance, or have questions, they can contact OVAVP (Office for Victim Advocacy &amp; Violence Prevention) at 665-8287, 882-8282, or [OVAVP@utrgv.edu](mailto:OVAVP@utrgv.edu)..
 
-I won't allow note-taking using laptops, sorry. [They've been found to be distracting, to you and to others](https://www.scientificamerican.com/article/students-are-better-off-without-a-laptop-in-the-classroom/). Besides, [taking notes with pen and paper makes you smarter](https://www.wsj.com/articles/can-handwriting-make-you-smarter-1459784659).
+**Mandatory Course Evaluation Period (April 10 – May 1):**
 
-## UTRGV Policies
+     Students are required to complete an ONLINE evaluation of this course, accessed through your UTRGV account ([http://my.utrgv.edu](http://my.utrgv.edu)); you will be contacted through email with further instructions.  Students who complete their evaluations will have priority access to their grades.  Online evaluations will be available on or about:
 
-### Students with disabilities
+Module 1                February 13 – 19
 
-Students with a documented disability (physical, psychological, learning, or other disability which affects academic performance) who would like to receive academic accommodations should contact Student Accessibility Services (SAS) as soon as possible to schedule an appointment to initiate services.  Accommodations can be arranged through SAS at any time, but are not retroactive.  Students who suffer a broken bone, severe injury or undergo surgery during the semester are eligible for temporary services.  
+Module 2                April 10 – 16
 
-#### Pregnancy, Pregnancy-related, and Parenting Accommodations
+Full Spring Semester        April 10 – May 1
 
-Title IX of the Education Amendments of 1972 prohibits sex discrimination, which includes discrimination based on pregnancy, marital status, or parental status. Students seeking accommodations related to pregnancy, pregnancy-related condition, or parenting (reasonably immediate postpartum period) are encouraged to contact Student Accessibility Services for additional information and to request accommodations.
+**CS 1380 Tentative Schedule:**
 
-#### Student Accessibility Services
+| **Week** |   | **Topics covered during the week** |   | **Chapter** |
+| --- | --- | --- | --- | --- |
+| **starting** |   | **Tuesday** | **Thursday** |   |
+| 14-Jan |   | Introduction to the course. | Overview of Computers and Programming Languages. | 1 |
+| 21-Jan |   | Basic Elements of C++. | Basic Elements of C++. | 2 |
+| 28-Jan |   | Basic Elements of C++. Lab 1. | Input/Output. | 2,3 |
+| 4-Feb |   | Input/Output. Lab 2. | Input/Output. | 3 |
+| 11-Feb |   | Input/Output. Lab 3. | User-Defined Functions I. | 3,6 |
+| 18-Feb |   | **TEST 1 (CH: 1, 2, 3)** | User-Defined Functions I. | 6 |
+| 25-Feb |   | User-Defined Functions I. Lab 4. | User-Defined Functions I and II. | 6,7 |
+| 4-Mar |   | User-Defined Functions II. Lab 5. | User-Defined Functions II. | 7 |
+| 11-Mar |   | **Spring Break** | **Spring Break** |   |
+| 18-Mar |   | User-Defined Functions II. Lab 6. | Control Structures I (Selection). | 7,4 |
+| 25-Mar |   | Control Structures I (Selection). Lab 7. | Control Structures I (Selection). | 4 |
+| 1-Apr |   | **TEST 2 (CH: 4, 6, 7)** | Control Structures I and II (Repetition). | 4,5 |
+| 8-Apr |   | Control Structures II (Repetition). Lab 8. | Control Structures II (Repetition). | 5 |
+| 15-Apr |   | Control Structures II (Repetition). Lab 9. | Arrays and Strings. | 5,9 |
+| 22-Apr |   | Arrays and Strings. Lab 10. | Arrays and Strings. | 9 |
+| 29-Apr |   | Arrays and Strings. Lab 11. | **TEST 3 (CH: 5, 9)** | 9 |
 
-Brownsville Campus: Student Accessibility Services is located in Cortez Hall Room 129 and can be contacted by phone at (956) 882-7374 (Voice) or via email at ability@utrgv.edu.
 
-Edinburg Campus: Student Accessibility Services is located in 108 University Center and can be contacted by phone at (956) 665-7005 (Voice), (956) 665-3840 (Fax), or via email at ability@utrgv.edu.
 
-### Mandatory course evaluation period
+**Important dates:**
 
-Students are required to complete an ONLINE evaluation of this course, accessed through your UTRGV account (http://my.utrgv.edu); you will be contacted through email with further instructions.  Students who complete their evaluations will have priority access to their grades.  Online evaluations will be available on or about:
+January 14                First day of classes
 
-Module 1		October 4 – 10  
-Module 2		November 29 – December 5  
-Full Fall Semester	November 15 – December 5
+January 17                Last day to add a course or register for spring 2019
 
-### Attendance
+January 21                Martin Luther King Jr. Day – NO classes
 
-Students are expected to attend all scheduled classes and may be dropped from the course for excessive absences.  UTRGV’s attendance policy excuses students from attending class if they are participating in officially sponsored university activities, such as athletics; for observance of religious holy days; or for military service. Students should contact the instructor in advance of the excused absence and arrange to make up missed work or examinations.
+April 10                        Last day to drop a course; will count toward the 6-drop rule
 
-### Scholastic integrity
+April 19-20                Easter Holiday – NO classes
 
-As members of a community dedicated to Honesty, Integrity and Respect, students are reminded that those who engage in scholastic dishonesty are subject to disciplinary penalties, including the possibility of failure in the course and expulsion from the University. Scholastic dishonesty includes but is not limited to: cheating, plagiarism (including self-plagiarism), and collusion; submission for credit of any work or materials that are attributable in whole or in part to another person; taking an examination for another person; any act designed to give unfair advantage to a student; or the attempt to commit such acts. Since scholastic dishonesty harms the individual, all students and the integrity of the University, policies on scholastic dishonesty will be strictly enforced (Board of Regents Rules and Regulations and UTRGV Academic Integrity Guidelines). All scholastic dishonesty incidents will be reported to the Dean of Students.
+May 2                        Study Day – NO classes
 
-### Sexual harassment, discrimination, and violence
+May 3-9                        Final Exams
 
-In accordance with UT System regulations, your instructor is a “Responsible Employee” for reporting purposes under Title IX regulations and so must report any instance, occurring during a student’s time in college, of sexual assault, stalking, dating violence, domestic violence, or sexual harassment about which she/he becomes aware during this course through writing, discussion, or personal disclosure. More information can be found at www.utrgv.edu/equity, including confidential resources available on campus. The faculty and staff of UTRGV actively strive to provide a learning, working, and living environment that promotes personal integrity, civility, and mutual respect that is free from sexual misconduct and discrimination. 
+May 10-11                Commencement Exercises
 
-### Course drops
+**U Central FAQs:**
 
-According to UTRGV policy, students may drop any class without penalty earning a grade of DR until the official drop date. Following that date, students must be assigned a letter grade and can no longer drop the class. Students considering dropping the class should be aware of the “3-peat rule” and the “6-drop” rule so they can recognize how dropped classes may affect their academic success. The 6-drop rule refers to Texas law that dictates that undergraduate students may not drop more than six courses during their undergraduate career. Courses dropped at other Texas public higher education institutions will count toward the six-course drop limit. The 3-peat rule refers to additional fees charged to students who take the same class for the third time.
+[**http://www.utrgv.edu/\_files/documents/u-central/u-central-faqs-8-28-15.pdf**](http://www.utrgv.edu/_files/documents/u-central/u-central-faqs-8-28-15.pdf)
 
-### Student services
+THECB definition of the Foundational Component Area that this course aligns to:
 
-Students who demonstrate financial need have a variety of options when it comes to paying for college costs, such as scholarships, grants, loans and work-study. Students should visit the Students Services Center (U Central) for additional information.
+_Mathematics – Courses in this category focus on quantitative literacy in logic, patterns, and relationships. Courses involve the understanding of key mathematical concepts and the application of appropriate quantitative tools to everyday experience._
 
-U Central is located in BMAIN 1.100 (Brownsville) or ESSBL 1.145 (Edinburg) or can be reached by email (ucentral@utrgv.edu) or telephone: (888) 882-4026. In addition to financial aid, U Central can assist students with registration and admissions.
+- **Alignment to the THECB Component is attained through achieving the following**  **detailed learning outcomes which are listed before:**
 
-Students seeking academic help in their studies can use university resources in addition to an instructor’s office hours. University Resources include the Learning Center, Writing Center, Advising Center and Career Center. The centers provide services such as tutoring, writing help, critical thinking, study skills, degree planning, and student employment. Locations are:
+2. Analyze a programming problem and develop a solution algorithm.
 
-Learning center: BSTUN 2.10 (Brownsville) or ELCTR 100 (Edinburg)  
-Writing center: BLIBR 3.206 (Brownsville) or ESTAC 3.119 (Edinburg)  
-Advising center: BMAIN 1.400 (Brownsville) or ESWKH 101 (Edinburg)  
-Career center: BCRTZ 129 (Brownsville) or ESSBL 2.101 (Edinburg)
+3. Use the syntax and semantics of a higher-level language to implement their solutions to programming problems
+
+6. Apply problem-solving strategies to design a solution to a problem similar to ones seen before.
+
+7. Design simple ADTs to solve a problem similar to one seen before.
+
+9. Formulate complex arithmetic expressions involving operators of differing precedence and associativity, and understand the order of evaluation of sub-expressions.
+
+10. Formulate complex logical expressions involving multiple and/or/not combinations.
+
+11. Implement nested if statements.
+
+12. Demonstrate proficiency in the use of logic and arithmetic operators and their precedence.
+
+- **Meeting the THECB Core Objectives**
+
+** **
+
+-
+  - **Critical Thinking Skills:** _to include creative thinking, innovation, inquiry, and analysis, evaluation and synthesis of information._
+
+Achieving the following detailed learning outcomes will help attain these critical thinking skills:
+
+2. Analyze a programming problem and develop a solution algorithm.
+
+3. Use the syntax and semantics of a higher-level language to implement their solutions to
+
+programming problems
+
+6. Apply problem-solving strategies to design a solution to a problem similar to ones seen
+
+before.
+
+7. Design simple ADTs to solve a problem similar to one seen before.
+
+9. Formulate complex arithmetic expressions involving operators of differing precedence and
+
+associativity, and understand the order of evaluation of sub-expressions.
+
+10. Formulate complex logical expressions involving multiple and/or/not combinations.
+
+12. Demonstrate proficiency in the use of logic and arithmetic operators and their precedence.
+
+-
+  - **Communication Skills:** _to include effective development, interpretation and expression of ideas through written, oral and visual communication._
+
+Achieving the following detailed learning outcomes will help attain these communication skills:
+
+4. Document their solutions.
+
+15. Use standard documentation to determine the use of an unfamiliar class or method.
+
+16. Use teamwork roles and methods in the classroom.
+
+-
+  - **Empirical and Quantitative Skills:** _to include the manipulation and analysis of numerical data or observable facts resulting in informed conclusions._
+
+Achieving the following detailed learning outcomes will help attain these Empirical and Quantitative Skills:
+
+3. Use the syntax and semantics of a higher-level language to implement their solutions to
+
+programming problems, including the correct use of:
+
+a. Variables and assignment to variables,
+
+b. Primitive types such as integer, character, and floating-point variable types,
+
+c. Commonly-used built-in reference types, e.g., single-dimensional arrays, strings,
+
+d. Declaration of constants and variables,
+
+e. Assignment, logical, and arithmetic operators,
+
+f. Local and global variables,
+
+g. Selective control structures (e.g., if, nested if, switch),
+
+h. Iterative control structures (e.g., for, while),
+
+i. Functions (user-defined and predefined),
+
+j. Parameter passing to functions (by value and by reference),
+
+k. Arrays and other structures (such as records).
+
+5. Use functions and parameter passing involving both primitive types and reference types.
+
+8. Apply testing and debugging strategies, including black-box and white-box testing, test
+
+drivers, stubs, to identify software faults.
+
+13. Use simple I/O to read and write character and numeric data to and from files, keyboard, and display.
+
+**LAB/HOMEWORK ASSIGNMENTS EVALUATION CRITERIA**
+
+**LAB (Team work)**
+
+1)        Students MUST work in pairs in labs.
+
+2)        The program MUST follow STRICTLY the instructions on the handout. Failing to do so, will cost you points. If you want to try other solutions, you can do so but as a separate program. The program that you will be required to show, explain, and submit will be the one specified on the handout.
+
+3)        The student MUST be able to explain to the instructor or SA (Student Assistant) any part of the program.
+
+4)        Although this is team work, each individual member of the team is still responsible for the submission of the assignment. That is, you cannot blame your partner for not submitting it (on time or anything at all).
+
+**HOMEWORK (Individual work)**
+
+1)        This is, in principle, individual work but students may do it in two members-teams (pair programming) if they wish. To be allowed to work in pairs, one of the team members will have to post a message in the corresponding topic of the Discussion Board of Blackboard stating the name of the members at least one week before their first work together. The team MUST work together for at least three homework assignments. Switching of team members MUST be authorized by the instructor.
+
+2)        If working in pairs, it is expected that BOTH members of the team work together on EACH problem, not each member on a separated problem.
+
+3)        Teams/individuals can share ideas on the general solution of the problem but cannot share actual code. If this situation is detected, BOTH teams/individuals (the one given the code as well as the one receiving it) will get 0 (ZERO) points and a warning from the instructor. A second instance of copying will be dealt according to the HOP (Handbook of Operating Procedures) specifications, that is, report to the Dean of Students and whatever action derives from that.
+
+
+
+        Students/teams can provide LIMITED help to other classmates/teams. Providing full sections of code is NOT allowed.
+
+Examples of help that can be provided are:
+
+a) Pinpointing an error such as a missing semicolon at the end of the statement.
+
+b) Mentioning a missing declaration of a variable or named constant.
+
+c) Describing the wrong use of data types in an expression.
+
+d) Discussing the general type of structure to be used in the solution (when allowed)
+
+If you have any doubts, consult with the instructor.
+
+**ASSESSMENT QUESTIONS**
+
+        There will be in every test questions assessing your participation in the solution of homework and lab assignments. Thus, it is important that you and your partner clearly understand what was done in every program submitted. These questions will ask you to do something similar to what you did for your assignments. Their grade (AG: Assessment Grade) will range from 0.0 to 1.0 and will be used to calculate your final grade according the formula shown below.
+
+**GRADING CRITERIA**
+
+        The following general criteria will be used to grade homework and lab assignments:
+
+1) Missing or too few comments in the source program: -5 points.
+
+2) Missing source files (.cpp): -100% of what the program is worth.
+
+3) Non-working programs (do not compile or do not do what are supposed to do): -100% of what the program is worth.
+
+4) Missing algorithm: -10 points.
+
+5) Other errors such as not checking for problems when opening files, not using the right type of variable, logical errors, using the wrong type of structure, etc.: from -5 to -10 points depending on the severity of the mistake.
+
+6) Warnings generated by the compiler: -5 points.
+
+7) Late submission: -10 points.
+
+        These general criteria may be modified under particular circumstances. As the semester progresses, more criteria may eventually be added to the above.
+
+Your final grade will be calculated using the following formula:
+
+FG = TGA\*.36 + HGA\*.32\*OAGA + LGA\*.32\*OAGA + 5\*OAGA\*PAGA
+
+FG: Final Grade
+
+TGA: Tests Grade Average (0-100)
+
+HGA: Homework Grade Average (0-100)
+
+LGA: Labs Grade Average (0-100)
+
+OAGA: Own Assessment Grade Average (0.0-1.0)
+
+PAGA: Partner Assessment Grade Average (0.0-1.0)
+
+The last term in the formula (5\*OAGA\*PAGA) can add up to 5 points to your final grade and it will depend on yours and your partner&#39;s assessment grades in tests. It is called **Team Work Incentive**.
+
+Your homework and lab assignments components will be affected by your own assessment grade in tests.
